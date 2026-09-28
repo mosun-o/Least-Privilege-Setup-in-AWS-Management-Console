@@ -24,8 +24,7 @@ This setup demonstrates how the principle of least privilege is enforced in the 
 <img width="1100" height="461" alt="WhatsApp Image 2026-09-28 at 22 39 43" src="https://github.com/user-attachments/assets/33288a4a-e535-417b-b33d-6c9cab770681" />
 
 
-
-<img width="954" height="371" alt="JSON POLICY IAM 4" src="https://github.com/user-attachments/assets/2a6ca4a1-3b8a-45a4-bca7-d969d13d5482" />
+<img width="1600" height="685" alt="WhatsApp Image 2026-09-28 at 22 42 04" src="https://github.com/user-attachments/assets/68899a82-e848-4968-8e78-9bc2ff95b135" />
 
 
 **Create the User and Assign Permissions via Groups**
