@@ -6,8 +6,11 @@ This setup demonstrates how the principle of least privilege is enforced in the 
  **Create the target resource (S3 bucket)**
  
 - Log into the AWS Management Console as the root user and create a dedicated S3 bucket, leave all default settings with Block Public Access enabled
-- 
-<img width="952" height="368" alt="S3 created - IAM" src="https://github.com/user-attachments/assets/b1ce7237-2378-47c1-949b-b85b0be1a82c" />
+
+
+<img width="1600" height="687" alt="WhatsApp Image 2026-09-28 at 22 32 59" src="https://github.com/user-attachments/assets/74bba7d1-d327-4491-8acc-498812b7d3b4" />
+
+
 
 
 **Create a custom least-privilege IAM policy tailored to the user's development needs using JSON.**
