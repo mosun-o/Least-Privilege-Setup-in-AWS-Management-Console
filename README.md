@@ -31,7 +31,8 @@ This setup demonstrates how the principle of least privilege is enforced in the 
 
 - The user belongs to the Developers group. As a best practice, create the developers group and attach the custom least-privilege policy to the group. Then, create the user and add the user to the group so that they inherit the permissions granted by the group policy, rather than assigning policies directly to individual users
 
-<img width="956" height="368" alt="USER GROUP 1 - IAM" src="https://github.com/user-attachments/assets/cf1087ba-ebdb-4037-bb0b-1d1c87b07caf" />
+<img width="1600" height="692" alt="WhatsApp Image 2026-09-28 at 22 44 15" src="https://github.com/user-attachments/assets/4291bde5-4403-4139-84a0-789191697aae" />
+
 
 - Create IAM user, enable AWS Management Console access, and add the user to the developers group
 
