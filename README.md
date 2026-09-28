@@ -36,23 +36,25 @@ This setup demonstrates how the principle of least privilege is enforced in the 
 
 - Create IAM user, enable AWS Management Console access, and add the user to the developers group
 
-
-<img width="938" height="373" alt="USER 2 - IAM" src="https://github.com/user-attachments/assets/60daf648-370c-40cd-967b-ea299179ce6f" />
-
+<img width="1600" height="692" alt="WhatsApp Image 2026-09-28 at 22 44 15" src="https://github.com/user-attachments/assets/939b85a0-f8ee-4950-bdef-4611f0ebbbd1" />
 
 
-<img width="957" height="368" alt="USER 3 - IAM" src="https://github.com/user-attachments/assets/3065445c-1124-41a1-8384-c58d3698e156" />
+
+<img width="1600" height="709" alt="WhatsApp Image 2026-09-28 at 22 48 19" src="https://github.com/user-attachments/assets/d930322c-250d-41d7-8516-8446469f4851" />
 
 
  - Copy the user's log in details after the user is created
- 
-<img width="955" height="368" alt="LOG IN 1 - IAM" src="https://github.com/user-attachments/assets/efae22ee-3bbd-4326-a38d-2979b36017b5" />
 
 
-<img width="952" height="382" alt="LOG IN 2 - IAM" src="https://github.com/user-attachments/assets/bd7418b7-0c81-4a0c-8959-ee32d0f82b15" />
+<img width="1600" height="692" alt="WhatsApp Image 2026-09-28 at 22 49 49" src="https://github.com/user-attachments/assets/28fd2034-6d8f-4bbb-80ee-29dab7d32689" />
 
 
-<img width="956" height="377" alt="LOG IN 3 - IAM" src="https://github.com/user-attachments/assets/a0b1a19d-7325-48fc-9f7c-57bf4b398c15" />
+<img width="1600" height="698" alt="WhatsApp Image 2026-09-28 at 22 51 09" src="https://github.com/user-attachments/assets/32e33b29-c136-4a16-a80b-b54a7c94f346" />
+
+
+
+<img width="1600" height="692" alt="WhatsApp Image 2026-09-28 at 22 53 42" src="https://github.com/user-attachments/assets/2c48fd38-3c09-42e0-be49-133e228db1b4" />
+
 
 
 ## Test and Verify Least Privilege Access
@@ -62,15 +64,21 @@ This setup demonstrates how the principle of least privilege is enforced in the 
 **On the S3 page, Alice can view all the buckets in the AWS account because the s3:ListAllMyBuckets permission assigned through the user's group**
 
 
-<img width="955" height="392" alt="TEST 1 - IAM" src="https://github.com/user-attachments/assets/76fec40a-dc6d-4f67-9c6d-92d2bb112d9c" />
+
+<img width="1600" height="651" alt="WhatsApp Image 2026-09-28 at 22 54 52" src="https://github.com/user-attachments/assets/8630ef54-de47-40f7-a36b-9891aeb391d7" />
+
 
 
 **The user can also read from and write to the dedicated developers S3 bucket. The user was able to upload an object successfully because the policy grants the s3:PutObject permission**
 
-<img width="956" height="391" alt="TEST 2 - IAM" src="https://github.com/user-attachments/assets/5dc4637f-b742-4e9f-8251-73f55e9a0b03" />
 
 
-<img width="947" height="389" alt="TEST 3 - IAM" src="https://github.com/user-attachments/assets/72e27634-db11-4b91-9484-d3d9464627e6" />
+<img width="1600" height="633" alt="WhatsApp Image 2026-09-28 at 22 56 16" src="https://github.com/user-attachments/assets/b1c8f5e3-50db-44c0-b23b-b82f6a2c6957" />
+
+
+
+
+<img width="1600" height="692" alt="WhatsApp Image 2026-09-28 at 22 57 46" src="https://github.com/user-attachments/assets/9ac392f2-9a7c-4599-9283-9325c2098af9" />
 
 
 ## Test unauthorized actions
@@ -78,7 +86,8 @@ This setup demonstrates how the principle of least privilege is enforced in the 
 - Attempt to create a new S3 bucket as the user Alice, the user received an "Access Denied" error because the developer group's policy allows only listing, reading and writing objects in to the dedicated S3 bucket, and AWS denies any action that isn't explicitly allowed
 
 
-<img width="954" height="152" alt="TEST 4 - IAM" src="https://github.com/user-attachments/assets/112c3439-9615-4752-8d8b-5b1d87dbee8b" />
+
+<img width="1600" height="758" alt="WhatsApp Image 2026-09-28 at 22 59 26" src="https://github.com/user-attachments/assets/8cd08e8d-b263-4397-8476-1ac30333ca86" />
 
 
 
