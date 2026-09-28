@@ -17,7 +17,10 @@ This setup demonstrates how the principle of least privilege is enforced in the 
 
 - This policy grants the user read and write access to objects in the dedicated S3 bucket, and to also allow the user to list S3 buckets in the AWS Management Console
 
-<img width="941" height="368" alt="JSON POLICY - IAM 2" src="https://github.com/user-attachments/assets/42d68399-80fb-44a4-b060-c990f3be00c2" />
+
+<img width="1600" height="695" alt="WhatsApp Image 2026-09-28 at 22 37 31" src="https://github.com/user-attachments/assets/85638c5a-e24a-4c87-8da8-19789a689a7d" />
+
+
 
 
 <img width="949" height="381" alt="JSON POLICY IAM 3" src="https://github.com/user-attachments/assets/63d760f0-3fad-4060-852b-5d40bd74e61f" />
